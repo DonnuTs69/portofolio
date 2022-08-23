@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  background-color: white;
+}
+
+.navbar {
+  display: flex;
+  background-color: #03fcbe;
+  color: white;
+  position: sticky;
+  justify-content: space-between;
+}
+
+.navbar div div {
+  padding: 12px 14px;
+
+  text-align: center;
+  font-size: 13px;
+  font-family: sans-serif;
+  cursor: pointer;
+}
+.navbar .item a {
+  display: block;
+  color: white;
+}
+
+.navbar div div:hover {
+  background-color: black;
+}
+
+.profil {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 600px;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 4px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 5);
+  display: flex;
+}
+.profil .profil1 {
+  width: 400px;
+  flex: 0 0 500px;
+}
+.profil .profil1 img {
+  max-width: 100%;
+}
+.profil .content {
+  padding-left: 20px;
+}
+.profil .profil1 h1 {
+  margin: 0;
+  padding-left: 20px;
+  color: #03fcbe;
+}
+.profil .content h2 {
+  margin: 0;
+  padding-left: 0;
+  color: #03fcbe;
+}
+.text {
+  position: flex;
+  padding: 0px 600px;
+  font-size: 20px;
+  color: #03fcbe;
+}

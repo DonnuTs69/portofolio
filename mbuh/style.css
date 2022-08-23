@@ -28,18 +28,18 @@ body {
   background-color: black;
 }
 .profil {
+  position: absolute;
+  top: 20%;
+  left: 30%;
+  width: 600px;
   padding: 20px;
-  margin: 80px;
-  display: flex;
-  flex-direction: column;
+  box-sizing: border-box;
   border-radius: 50px;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 5);
-  align-items: center;
-  justify-content: center;
 }
 .profil img {
   max-width: 50%;
-  padding-left: 10px;
+  padding-left: 150px;
 }
 .profil h1 {
   margin: 0;
@@ -56,23 +56,4 @@ body {
 
 .profil p {
   text-align: center;
-}
-
-.project {
-  text-align: center;
-
-  color: #03fcbe;
-}
-.project img {
-  width: 40%;
-}
-
-.contac {
-  margin-top: 50px;
-  background-color: #03fcbe;
-  display: flex;
-  flex-direction: column;
-
-  align-items: center;
-  justify-content: center;
 }
